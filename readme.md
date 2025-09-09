@@ -1,13 +1,6 @@
 #BibleAddon
 
-* Autor: Carlos Pacheco
-* Versión actual: 1.0
-* Compatibilidad con NVDA: versión 2024.1 en adelante
-* Descargar versión estable [aquí][1]
-* Ver código fuente en [GitHub][2]
 
-
-## Presentación
 Este cmplemento carga en memoria el texto biblico a partir de un una base de datos sqlite para luego gestionarla a través de su interfaz gráfica, permitiendo leer por capítulo un libro de La Biblia.
 
 ## Ejecutando BibleAddon.
@@ -67,6 +60,7 @@ Cabe mencionar que el texto o los versículos están almacenados junto con carac
 Este complemento puede leer una Biblia siempre y cuando el nombre del archivo de base de datos sqlite tenga extensión bbl y el esquema de base de datos sea el correcto. Viene por defecto con La Biblia "Nueva traducción Viviente" cuyo nombre de archivo es NTV.bbl.
 Para cargar una versión distinta debes ir a la carpeta BibleAddon, mover a otra carpeta el archivo NTV.bbl y luego copiar el archivo bbl que contiene la versión de La Biblia que deseas leer, luego deberás reiniciar NVDA y cargar nuevamente el complemento.
 
+Puedes  acceder al código fuente de este complemento haciendo [click aquí][1].  
 
-[1]: https://github.com/carcheco
-[2]: https://github.com/carcheco/BibleAddon
+
+[1]: https://github.com/carcheco/BibleAddon
