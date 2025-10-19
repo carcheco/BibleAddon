@@ -1,13 +1,16 @@
 #BibleAddon
 
 
-Este cmplemento carga en memoria el texto biblico a partir de un una base de datos sqlite para luego gestionarla a través de su interfaz gráfica, permitiendo leer por capítulo un libro de La Biblia.
+BibleAddon es un cmplemento que te permite a través de una interfaz facíl e intuitiva leer un libro por capitulos ya sea del antiguo o nuevo testamento, cargando para ello en memoria el texto biblico desde una base de datos SQLite.
 
-## Ejecutando BibleAddon.
-Ir al menú de NVDA, submenú  Herramientas  y seleccionar BibleAddon, NVDA dirá  "cargando La Biblia".  Una vez cargado el complemento, estarás posicionado en  un cuadro de texto multilínea de solo lectura   que contiene los versículos del capítulo del libro seleccionado.
-La primera vez que cargas este complemento, iniciarás en el libro de Génesis capítulo 1, luego la próxima vez iniciará en el capítulo del libro en donde quedaste antes de salir del complemento. 
+Inicialmente este complemento no tiene asignada una combinación de teclas para llamarlo, para asignarle una de esta, hacer lo siguiente:
 
-Nota: Inicialmente este complemento no tiene asignada una combinación de teclas para llamarlo, para asignarle una de esta, ir al menú de NVDA  submenú Preferencias y seleccionar Gestos de entrada.
+* ir al menú de NVDA  submenú Preferencias y seleccionar Gestos de entrada.
+* Bajar hasta ubicar BibleAddon y con flecha derecha expandir este item.
+* Bajar a "Llama al complemento BibleAddon".
+* Tabula hasta  posicionarte en "Añadir" y presiona enter.
+* En el cuadro de diálogo, presionar las teclas que serán usadas para llamar el BibleAddon, se desplegará  un cuadro de lista, baja para que selecciones el tipo de teclado a usar y presiona enter.
+* Tabula hasta "Aceptar" y habrás creado la combinación de teclas para llamar a BibleAddon.
 
 
 ## ¿Cómo usarlo?
@@ -26,6 +29,9 @@ Estando en el cuadro de texto de lectura del texto Biblico, puedes usar los sigu
 * Alt mas Tecla "i": Para saber en que libro y capítulo estás
 
 Estando en el cuadro de texto de lectura de los versículos, si quieres ir a un capítulo en particular del libro actual, pulsa la tecla "Shift" mas "Tabulador" y luego escribe un número de capítulo valido.
+
+También puedes desde el cuadro de texto de lectura presionar Alt más 1 para que selecciones un testamento, luego puedes tabular para que selecciones un libro, nuevamente tabulas y ahora puedes escribir o selecionar un capítulo y al presionar enter volverás al cuadro de texto de lectura para leer el capítulo ahora seleccionado.
+
 Y en general, puedes moverte por toda la interfaz gráfica con tabulador o Shift mas tabulador.
 
 
@@ -60,7 +66,9 @@ Cabe mencionar que el texto o los versículos están almacenados junto con carac
 Este complemento puede leer una Biblia siempre y cuando el nombre del archivo de base de datos sqlite tenga extensión bbl y el esquema de base de datos sea el correcto. Viene por defecto con La Biblia "Nueva traducción Viviente" cuyo nombre de archivo es NTV.bbl.
 Para cargar una versión distinta debes ir a la carpeta BibleAddon, mover a otra carpeta el archivo NTV.bbl y luego copiar el archivo bbl que contiene la versión de La Biblia que deseas leer, luego deberás reiniciar NVDA y cargar nuevamente el complemento.
 
-Puedes  acceder al código fuente de este complemento haciendo [click aquí][1].  
+
+## Descarga del complemento.
+Puedes  descargar este  complemento haciendo [click aquí][1].  
 
 
-[1]: https://github.com/carcheco/BibleAddon
+[1]: https://drive.google.com/uc?export=download&id=1tqTPs5Ldeco92ip6M9hDlgpA-IQQ_mUL
