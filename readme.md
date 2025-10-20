@@ -68,7 +68,7 @@ Para cargar una versión distinta debes ir a la carpeta BibleAddon, mover a otra
 
 
 ## Descarga del complemento.
-Puedes descargar este complemento desde Drive de Google haciendo [click en este  enlace].
+Puedes descargar este complemento desde Drive de Google haciendo [click en este  enlace][1].
 
 Este es un enlace de descarga directa por lo que una vez presionado, puede que no te anuncie que la descarga está en progreso o que ha terminado, por lo que deberás ir con la tecla control mas la letra "J" al historial de descargas para verificar  su finalización.
 
