@@ -1,15 +1,15 @@
 #BibleAddon
 
 
-BibleAddon es un cmplemento que te permite a través de una interfaz facíl e intuitiva leer un libro por capitulos ya sea del antiguo o nuevo testamento, cargando para ello en memoria el texto biblico desde una base de datos SQLite.
+BibleAddon es un complemento que te permite a través de una interfaz fácil e intuitiva leer un libro por capítulos ya sea del antiguo o nuevo testamento, cargando para ello en memoria el texto bíblico desde una base de datos SQLite.
 
 Inicialmente este complemento no tiene asignada una combinación de teclas para llamarlo, para asignarle una de esta, hacer lo siguiente:
 
-* ir al menú de NVDA  submenú Preferencias y seleccionar Gestos de entrada.
+* ir al menú de NVDA submenú Preferencias y seleccionar Gestos de entrada.
 * Bajar hasta ubicar BibleAddon y con flecha derecha expandir este item.
 * Bajar a "Llama al complemento BibleAddon".
-* Tabula hasta  posicionarte en "Añadir" y presiona enter.
-* En el cuadro de diálogo, presionar las teclas que serán usadas para llamar el BibleAddon, se desplegará  un cuadro de lista, baja para que selecciones el tipo de teclado a usar y presiona enter.
+* Tabula hasta posicionarse en "Añadir" y presiona enter.
+* En el cuadro de diálogo, presionar las teclas que serán usadas para llamar el BibleAddon, se desplegará un cuadro de lista, baja para que selecciones el tipo de teclado a usar y presiona enter.
 * Tabula hasta "Aceptar" y habrás creado la combinación de teclas para llamar a BibleAddon.
 
 
@@ -26,7 +26,7 @@ Estando en el cuadro de texto de lectura del texto Biblico, puedes usar los sigu
 * Alt mas flecha derecha: Avanza un capítulo en el libro seleccionado
 * Alt mas flecha izquierda: retrocede un capítulo en el libro seleccionado
 * Tecla "Esc" o "Escape": Cierra el complemento
-* Alt mas Tecla "i": Para saber en que libro y capítulo estás
+* Alt mas Tecla "i": Para saber en qué libro y capítulo estás
 
 Estando en el cuadro de texto de lectura de los versículos, si quieres ir a un capítulo en particular del libro actual, pulsa la tecla "Shift" mas "Tabulador" y luego escribe un número de capítulo valido.
 
@@ -36,7 +36,7 @@ Y en general, puedes moverte por toda la interfaz gráfica con tabulador o Shift
 
 
 ## Su interfaz Gráfica.
-Es de forma rectangular, más ancha que alta, tiene   3 secciones organizadas como cabezera, principal y pie, es decir una debajo de otra, y dentro de cada sección sus componentes se organizan de forma horizontal. 
+Es de forma rectangular, más ancha que alta, tiene   3 secciones organizadas como cabecera, principal y pie, es decir una debajo de otra, y dentro de cada sección sus componentes se organizan de forma horizontal. 
 La primera sección   contiene los siguientes objetos:
 
 * Una lista desplegable para seleccionar el testamento
@@ -46,18 +46,18 @@ La primera sección   contiene los siguientes objetos:
 
 Estos objetos conforman la barra de búsqueda del libro a leer.
 
-La segunda sección contiene solo un cuadro de texto multilínea de solo lectura que ocupa todo el ancho disponible, con todos los versículos que correspondan al libro seleccionado. 
+La segunda sección contiene solo un cuadro de texto multilínea de solo lectura que ocupa todo el ancho disponible, con todos los versículos que corresponden  al libro seleccionado. 
 
 La tercera sección contiene los siguientes objetos: 
 
 * Un botón "Siguiente", que te lleva un capítulo adelante del libro seleccionado
 * Un botón "Anterior", que te lleva un capítulo Atrás del libro seleccionado
-* Y finalmente un botón "Salir" que ciera el complemento.
+* Y finalmente un botón "Salir" que cierra el complemento.
 
 ## Información Técnica
-El complemento por ahora gestiona Biblias cristianas protestantes que contienen 66 libros a diferencia de las cristianas católicas que están formadas por 72 libros.
+El complemento por ahora gestiona Biblias cristianas protestantes que contiene 66 libros a diferencia de las cristianas católicas que están formadas por 72 libros.
 
-El texto biblico se encuentra almacenado en un archivo de base de datos sqlite la cual contiene 2 tablas, una llamada Bible y otra llamada Details, en la tabla Bible se encuentra todos los versículos que contiene una Biblia de 66 libros, cada versículo es un registro en la tabla, mientras que en la tabla Details solo hay un registro con información adicional acerca de esa versión de La Biblia.
+El texto biblíco se encuentra almacenado en un archivo de base de datos sqlite la cual guarda  2 tablas, una llamada Bible y otra llamada Details, en la tabla Bible se encuentra todos los versículos  de la Biblia de 66 libros, cada versículo es un registro en la tabla, mientras que en la tabla Details sólo hay un registro con información adicional acerca de esa versión de La Biblia.
 
 Con sqlite3 desde el cmd puedes gestionar el archivo con extensión bbl con todos los comandos que te ofrece este gestor de base de datos. Siempre toma la precaución de respaldar tu archivo bbl antes de manipularlo desde este gestor. 
 
@@ -68,7 +68,8 @@ Para cargar una versión distinta debes ir a la carpeta BibleAddon, mover a otra
 
 
 ## Descarga del complemento.
-Puedes  descargar este  complemento haciendo [click aquí][1].  
+Puedes descargar este complemento desde Drive de Google haciendo [click en este  enlace].
 
+Este es un enlace de descarga directa por lo que una vez presionado, puede que no te anuncie que la descarga está en progreso o que ha terminado, por lo que deberás ir con la tecla control mas la letra "J" al historial de descargas para verificar  su finalización.
 
-[1]: https://drive.google.com/uc?export=download&id=1tqTPs5Ldeco92ip6M9hDlgpA-IQQ_mUL
+[1]: https://drive.google.com/uc?export=download&id=15czaPiv9dd6oo5cXoDEDQIaa_dGz3kaw
